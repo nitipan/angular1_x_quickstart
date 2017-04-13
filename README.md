@@ -5,7 +5,21 @@
 
 The Project structure use approachs below
 
-1. CommonJS-style, Modular Loader to be compatible with browserify
+1. CommonJS-style, Modular Loader to be compatible with browserify, example below
+
+file: app.js
+```js
+require("./assets/style.css");
+
+var angular = require("angular");
+
+var app = angular.module("app", []);
+
+app.controller("mainController", require("./app/main.component"));
+
+```
+
+
 2. [Angular style guide](https://angular.io/docs/ts/latest/guide/style-guide.html) to follow file structure, naming convention etc, 
 3. Compatible with [Upgrading guideline](https://angular.io/docs/ts/latest/guide/upgrade.html#!#using-a-module-loader) (I hope :p) from Angular 1.x to Angular (2.x ++) with minimum efforts
 4. Ahead-of-time compilation (AOT) build process by using Browserify-Watchify 
