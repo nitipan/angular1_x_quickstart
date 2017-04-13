@@ -11,7 +11,7 @@
         "server": ".\\node_modules\\.bin\\browser-sync start --server \"dist\" --files \"dist\"",
         "start": ".\\node_modules\\.bin\\concurrently \"npm run watch:app\" \"npm run watch:static\" \"npm run server\""
     },
-    "author": "",
+    "author": "Nitipan Pompan",
     "license": "ISC",
     "dependencies": {
         "angular": "^1.6.4",
