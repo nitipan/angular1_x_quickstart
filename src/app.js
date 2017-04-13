@@ -4,4 +4,4 @@ var angular = require("angular");
 
 var app = angular.module("app", []);
 
-app.controller("mainController", require("./app/main.component"));
+app.component("myApp", require("./app/main.component"));
