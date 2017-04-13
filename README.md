@@ -25,6 +25,10 @@ app.controller("mainController", require("./app/main.component"));
 4. Ahead-of-time compilation (AOT) build process by using Browserify-Watchify 
 
 
+Remark:
+> This version is not optimized-yet for production used. 
+
+
 
  Setting up a new project on your machine is quick and easy with the QuickStart seed, maintained on github repository.
 
@@ -58,6 +62,7 @@ Let's focus on `src` folder
         |-- style.css
 
 ```
+
 
 
 
