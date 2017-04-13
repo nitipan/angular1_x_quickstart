@@ -8,7 +8,7 @@ The Project structure use approachs below
 1. CommonJS-style, Modular Loader to be ompatible with browserify
 2. [Angular style guide](https://angular.io/docs/ts/latest/guide/style-guide.html) to follow file structure, naming convention 
 3. [Upgrading guideline](https://angular.io/docs/ts/latest/guide/upgrade.html#!#using-a-module-loader) from Angular 1.x to Angular (2.x ++) with minimum efforts
-4. Ahead-of-time compilatio (AOT) build process by using Browserify-Watchify 
+4. Ahead-of-time compilation (AOT) build process by using Browserify-Watchify 
 
 
 
