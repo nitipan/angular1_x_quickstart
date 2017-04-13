@@ -26,7 +26,7 @@ app.controller("mainController", require("./app/main.component"));
 
 
 Remark:
-> This version is not optimized-yet for production used. 
+> This version is not optimized-yet for production. 
 
 
 
