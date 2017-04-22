@@ -3,5 +3,5 @@ node_js:
   - "7"
 before_script:
   - "npm install"
-script: "/node_modules/.bin/browserify -t browserify-css --debug /src/app.js -o /dist/bundle.js"
+script: "node_modules/.bin/browserify -t browserify-css --debug src/app.js -o dist/bundle.js"
 
