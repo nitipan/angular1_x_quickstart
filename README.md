@@ -1,5 +1,7 @@
 # Quickstart of local-development for AngularJS 1.x projects
 
+[![build status](https://travis-ci.org/nitipan/angular1_x_quickstart.svg?branch=master)](https://travis-ci.org/nitipan/angular1_x_quickstart)
+
 ## by using CommonJS style which has live-development and AOT compilation by using Browserify, Watchify and BrowserSync.
 
 
