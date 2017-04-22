@@ -2,14 +2,14 @@
     "name": "quickstart",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "index.js",    
     "scripts": {
-        "build:app": ".\\node_modules\\.bin\\browserify -t browserify-css --debug .\\src\\app.js -o .\\dist\\bundle.js",
+        "build:app": "node_modules/.bin/browserify -t browserify-css --debug src/app.js -o dist/bundle.js",
         "build": "npm run build:app",
-        "watch:app": ".\\node_modules\\.bin\\watchify -t browserify-css -v --debug .\\src\\app.js -o .\\dist\\bundle.js",
-        "watch:static": ".\\node_modules\\.bin\\cpx \"src/**/*.{html,png,jpg}\" dist --watch -v",
-        "server": ".\\node_modules\\.bin\\browser-sync start --server \"dist\" --files \"dist\"",
-        "start": ".\\node_modules\\.bin\\concurrently \"npm run watch:app\" \"npm run watch:static\" \"npm run server\""
+        "watch:app": "node_modules/.bin/watchify -t browserify-css -v --debug src/app.js -o dist/bundle.js",
+        "watch:static": "node_modules/.bin/cpx \"src/**/*.{html,png,jpg}\" dist --watch -v",
+        "server": "node_modules/.bin/browser-sync start --server \"dist\" --files \"dist\"",
+        "start": "node_modules/.bin/concurrently \"npm run watch:app\" \"npm run watch:static\" \"npm run server\""
     },
     "author": "Nitipan Pompan",
     "license": "ISC",
